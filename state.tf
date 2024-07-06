@@ -11,11 +11,11 @@ terraform {
   required_version = ">= 1.2.0"
 
   backend "s3" {
-    bucket         = "tf-backend-tfstate-srishti-dev"
-    key            = "ap-south-1/srishti-dev/vpc/terraform.tfstate"
+    bucket         = "tf-backend-tfstate-rajender-dev1"
+    key            = "ap-south-1/rajender-dev1/vpc/terraform.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "terraform-lock-srishti-dev"
-    profile        = "srishti-vedific-admin"
+    profile        = "rajender-vedific-admin"
   }
 
   required_providers {
